@@ -9,6 +9,9 @@ data:
     #!/usr/bin/env bash
     echo "This will retry connections until PostgreSQL/Redis is up, then perform database installation/migrations as needed."
 
+    ## Temporary patch until this is implemented in the app itself
+    sed -i 's/Queue.all()/Queue.all(connection=rq_redis_connection)/g' /app/redash/monitor.py
+
     # Status command timeout
     STATUS_TIMEOUT=10
     # Create tables command timeout
