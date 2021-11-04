@@ -344,7 +344,10 @@ ingress:
   # ingress.hosts -- Ingress resource hostnames and path mappings
   hosts:
     - host: chart-example.local
-      paths: []
+      paths:
+        - path: /
+          pathType: Prefix
+
   # ingress.tls -- Ingress TLS configuration
   tls: []
   #  - secretName: chart-example-tls
