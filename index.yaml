@@ -3,7 +3,7 @@ entries:
   redash:
   - apiVersion: v1
     appVersion: 9.0.0-beta.b42121
-    created: "2021-11-04T11:31:24.579548Z"
+    created: "2021-11-04T11:41:21.24875Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -15,7 +15,7 @@ entries:
       version: ^8.10.14
     description: Redash is an open source tool built for teams to query, visualize
       and collaborate.
-    digest: c6f27ddda69bcd73fa9fc09d5edc920daebdbdb92acf0ceda8e8e88b878c5dc1
+    digest: 7ef24c606b5140316f5f91ddc74bea727421d2b80c60134ba8884f98d4751ce3
     home: https://redash.io/
     icon: https://redash.io/assets/images/elements/redash-logo.svg
     keywords:
@@ -33,7 +33,7 @@ entries:
     version: 2.4.0
   - apiVersion: v1
     appVersion: 9.0.0-beta.b42121
-    created: "2021-11-04T11:31:24.55892Z"
+    created: "2021-11-04T11:41:21.226523Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -63,7 +63,7 @@ entries:
     version: 2.3.2-bp.1
   - apiVersion: v1
     appVersion: 9.0.0-beta.b42121
-    created: "2021-11-04T11:31:24.569787Z"
+    created: "2021-11-04T11:41:21.236785Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -93,7 +93,7 @@ entries:
     version: 2.3.2-bp
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.548789Z"
+    created: "2021-11-04T11:41:21.21703Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -123,7 +123,7 @@ entries:
     version: 2.3.1
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.538072Z"
+    created: "2021-11-04T11:41:21.206476Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -153,7 +153,7 @@ entries:
     version: 2.3.0
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.527421Z"
+    created: "2021-11-04T11:41:21.196292Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -183,7 +183,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.51729Z"
+    created: "2021-11-04T11:41:21.186148Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -213,7 +213,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.507585Z"
+    created: "2021-11-04T11:41:21.175581Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -243,7 +243,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.498522Z"
+    created: "2021-11-04T11:41:21.166875Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -273,7 +273,7 @@ entries:
     version: 2.0.0-beta.8
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.488476Z"
+    created: "2021-11-04T11:41:21.157576Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -303,7 +303,7 @@ entries:
     version: 2.0.0-beta.7
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.47907Z"
+    created: "2021-11-04T11:41:21.149626Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -333,7 +333,7 @@ entries:
     version: 2.0.0-beta.6
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.47069Z"
+    created: "2021-11-04T11:41:21.140361Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -363,7 +363,7 @@ entries:
     version: 2.0.0-beta.5
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.46113Z"
+    created: "2021-11-04T11:41:21.131725Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -393,7 +393,7 @@ entries:
     version: 2.0.0-beta.4
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.451818Z"
+    created: "2021-11-04T11:41:21.121591Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -423,7 +423,7 @@ entries:
     version: 2.0.0-beta.3
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.443342Z"
+    created: "2021-11-04T11:41:21.113532Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -453,7 +453,7 @@ entries:
     version: 2.0.0-beta.2
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.433744Z"
+    created: "2021-11-04T11:41:21.104072Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -483,7 +483,7 @@ entries:
     version: 2.0.0-beta.1
   - apiVersion: v1
     appVersion: 8.0.2.b37747
-    created: "2021-11-04T11:31:24.424299Z"
+    created: "2021-11-04T11:41:21.094656Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -513,7 +513,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 8.0.1.b33387
-    created: "2021-11-04T11:31:24.416524Z"
+    created: "2021-11-04T11:41:21.086678Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -541,4 +541,4 @@ entries:
     urls:
     - redash-1.1.0.tgz
     version: 1.1.0
-generated: "2021-11-04T11:31:24.408684Z"
+generated: "2021-11-04T11:41:21.079973Z"
